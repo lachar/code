@@ -53,7 +53,7 @@ function getUrl($url){
  * @param string $filename 要保存的文件名(不含扩展名)
  * @return mixed 下载成功返回一个描述图片信息的数组，下载失败则返回false
  */
-static public function downloadImage($url, $file_path, $filename) {
+function downloadImage($url, $file_path, $filename) {
     //服务器返回的头信息
     $responseHeaders = array();
     //原始图片名
