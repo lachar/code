@@ -1,0 +1,29 @@
+
+iconBtn{
+    width: 100%;
+    height: 130rpx;
+    background: rgba(155, 155, 155, 0);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.iconBtn::after{
+    border: none;
+}
+.remind-num{
+	border-radius: 40%;
+	position: absolute;
+	top: 2rpx;
+	right: 2rpx;
+	font-size: 20rpx;
+	text-align: center;
+	min-width: 30rpx;
+	line-height: 30rpx;
+	height: 30rpx;
+	color: var(--white);
+	z-index: 100;
+	background-color: red;
+}
